@@ -14,6 +14,7 @@ The project's scope and acceptance criteria are in docs/SPEC.md. Read it before 
 - Commit messages use conventional commits: feat:, fix:, test:, docs:, refactor:, chore:, build:, ci:. One logical change per commit.
 - Explain decisions. When there's a real choice (split strategy, metric, library, schema), tell me the options and the trade-off in a few lines, then record it as an ADR in docs/adr/.
 - Never invent results. Every number in the README, model card or docs must come from code that was actually run on the real data in this repo. If something hasn't been run, leave a TODO, not a guess.
+- **No AI attribution in commits.** Never add Co-Authored-By or any other AI trailer to commit messages.
 
 ## Non-negotiable engineering standards
 
